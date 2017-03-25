@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "read-package-tree": "^5.1.5"
+  },
+  "name": "sindre-module-paths",
+  "version": "0.0.0",
+  "description": "Get all paths of sindre's modules in your node_modules folder",
+  "main": "index.js",
+  "repository": "https://github.com/stevemao/sindre-module-paths",
+  "author": "Steve Mao <maochenyan@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "bin": "cli.js",
+  "devDependencies": {
+    "camelcase": "^4.0.0",
+    "jest": "^19.0.2",
+    "repeating": "^3.0.0",
+    "test-transitive-deps": "^0.0.0"
+  }
+}
